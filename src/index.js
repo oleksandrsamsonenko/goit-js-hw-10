@@ -28,6 +28,7 @@ function handleInput() {
   }</span></p>
   <p class="country-lagnuages">Languages: <span>${Object.values(
     element.languages
+  ).join(', ')}</span></p></li>`;
           })
           .join('');
         countryInfo.innerHTML = markup;
