@@ -28,10 +28,8 @@ function handleInput() {
   }</span></p>
   <p class="country-lagnuages">Languages: <span>${Object.values(
     element.languages
-  )}</span></p></li>`;
           })
           .join('');
-        // console.log(markup);
         countryInfo.innerHTML = markup;
         countryList.innerHTML = '';
       } else if (data.length >= 2 && data.length <= 10) {
