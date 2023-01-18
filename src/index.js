@@ -19,9 +19,9 @@ function handleInput() {
           .map(element => {
             return `<li class="result"><p class="country-name"><img class="country-flag" src="${
               element.flags.png
-            }" width="100px" alt="${element.name.official} flag"/><span>  ${
+            }" width="100px" alt="${element.name.official} flag"/>  ${
               element.name.official
-            }</span></p>
+            }</p>
   <p class="country-capital">Capital: <span>${element.capital}</span></p>
   <p class="country-population">Population: <span>${
     element.population
